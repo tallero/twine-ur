@@ -3,7 +3,7 @@
 
 pkgbase=twine
 pkgname=('twine' 'python2-twine')
-pkgver=1.7.0
+pkgver=1.7.2
 pkgrel=1
 pkgdesc='Collection of utilities for interacting with PyPI'
 arch=('any')
