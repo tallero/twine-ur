@@ -8,7 +8,7 @@ pkgrel=2
 pkgdesc='Collection of utilities for interacting with PyPI'
 arch=('any')
 url='https://github.com/pypa/twine/'
-license=('Apache')
+license=('Apache-2.0')
 depends=('python-pkginfo' 'python-readme-renderer' 'python-requests' 'python-requests-toolbelt'
          'python-urllib3' 'python-importlib-metadata' 'python-keyring' 'python-rfc3986'
          'python-rich')
