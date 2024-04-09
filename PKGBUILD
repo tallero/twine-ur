@@ -13,8 +13,8 @@ depends=('python-pkginfo' 'python-readme-renderer' 'python-requests' 'python-req
          'python-urllib3' 'python-importlib-metadata' 'python-keyring' 'python-rfc3986'
          'python-rich')
 makedepends=('git' 'python-build' 'python-installer' 'python-setuptools-scm' 'python-wheel')
-checkdepends=('git' 'python-munch' 'python-jaraco.envs' 'python-portend' 'python-pretend' 'python-tox'
-              'python-pytest-cov' 'python-pytest-services' 'python-pytest-socket')
+checkdepends=('git' 'python-munch' 'python-jaraco.envs' 'python-portend' 'python-pretend'
+              'python-pytest-services' 'python-pytest-socket')
 provides=('python-twine')
 conflicts=('python-twine')
 replaces=('python-twine')
