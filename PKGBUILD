@@ -21,6 +21,12 @@ replaces=('python-twine')
 source=("git+https://github.com/pypa/twine.git#commit=$_commit")
 sha512sums=('SKIP')
 
+prepare() {
+  cd $pkgname
+  # Fix metadata tests
+  git cherry-pick -n 9eb9269e8c0ab0f53010a4b7b6cf466fd6f0090f
+}
+
 build() {
   cd $pkgname
   python -m build -nw
