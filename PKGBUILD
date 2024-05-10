@@ -4,7 +4,7 @@
 pkgname=twine
 pkgver=5.0.0
 _commit=94f810c54c8bc9d418a9ed64890ca9fa4ec7b59f
-pkgrel=2
+pkgrel=3
 pkgdesc='Collection of utilities for interacting with PyPI'
 arch=('any')
 url='https://github.com/pypa/twine/'
@@ -19,7 +19,7 @@ provides=('python-twine')
 conflicts=('python-twine')
 replaces=('python-twine')
 source=("git+https://github.com/pypa/twine.git#commit=$_commit")
-sha512sums=('SKIP')
+sha512sums=('0b98ce43cc5f9b9828c38a83b91468f6c9d7d8dc29d6d929586ed77cfd763dd840bffc4f431f6671040eab654a22de9053b1058affb613f2c64e8ba159b43f93')
 
 prepare() {
   cd $pkgname
